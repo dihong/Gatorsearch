@@ -4,8 +4,8 @@
 > 3. Implemented scalable search engine for real-time product query.
 
 # Install and Run
-> `make`
-> `mpirun --mca btl_tcp_if_include eth0 -np 4 --hostfile ./mpi_hostfile bin/gatorsearch`
+> make
+> mpirun --mca btl_tcp_if_include eth0 -np 4 --hostfile ./mpi_hostfile bin/gatorsearch
 
 # Developers
 Dihong Gong, Siliang Xia
