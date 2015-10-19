@@ -8,4 +8,4 @@ make <br />
 mpirun --mca btl_tcp_if_include eth0 -np 4 --hostfile ./mpi_hostfile bin/gatorsearch
 
 # Developers
-Dihong Gong, Siliang Xia
+Dihong Gong, Siliang Xia, Siva Prasad
